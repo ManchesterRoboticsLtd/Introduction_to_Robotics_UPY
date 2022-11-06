@@ -11,7 +11,7 @@
 </picture>
 
 ---
-# Session 1: Robot Simulation.
+# TEST Session 1: Robot Simulation.
   * In this session, an introduction to Differential Drive Systems and will be presented. 
   * A brief introduction of the Sensors and Actuators alongside some comparisons between the real robot and the modeled one will be given. 
   * Basic control theory about systems will be introduced.
@@ -21,6 +21,8 @@
     - Use an open loop control to move the robot in a straight line. 
     - Use an open loop controller to move the robot in a square.
 ---
+
+
 
 ### Useful Links:
 
