@@ -11,9 +11,9 @@
 </picture>
 
 ---
-# Introduction to Robotics
+# Introduction to Mobile Robotics
 
-  ## Introduction to ROS
+  ## Introduction
    * This branch contains all the presentations, activities and files required for the “Introduction to Robotics” course of the “Universidade Politecnica de Yucatan”.
    * This repository is organised by sessions, each subfolder contains all the neccesary files for each one of the activities of this course.
 
