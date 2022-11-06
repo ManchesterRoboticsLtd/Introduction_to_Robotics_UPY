@@ -1,7 +1,7 @@
 # Control Activities
 
 ## Requirements
-* Puzzlebot Gazebo simulator running (see Session 3)
+* Puzzlebot Gazebo simulator running (see Session 1)
 * Copy the folder open_loop_ctrl into your catkin_ws/src folder, the folder should look as follows
 <img src="https://user-images.githubusercontent.com/67285979/187089591-091a9058-dcc1-4abe-80fa-c4405f29bcea.png" alt="drawing" width="400"/>
 

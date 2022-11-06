@@ -1,7 +1,7 @@
-# Session 5 Activities
+# Session 2 Activities
 
 ### Requirements
-* Puzzlebot Gazebo simulator running (see Session 3)
+* Puzzlebot Gazebo simulator running (see Session 1)
 * Copy the folder close_loop_ctrl into your catkin_ws/src folder, the folder should look as follows
 <img src="https://user-images.githubusercontent.com/67285979/188336210-f823a50f-e26a-4968-9777-14740d895318.png" alt="drawing" width="400"/>
 
@@ -20,7 +20,7 @@ roslaunch close_loop_ctrl straightLine.launch
 * Alternatively, you can use *rqt_graph* to verify if the node is subscribed to the /wr topic   
 
 ## Activity 1 
-* Implement a ROS node that computes the robot location using the information from the gazebo simulator (Gazebo Simulator Session 4).
+* Implement a ROS node that computes the robot location using the information from the gazebo simulator (Gazebo Simulator Session 1).
 * It should subscribe to /wl and /wr, and publish the data to a suitable set of topics
 * The published messages could be a set floats, or you can combine them in any way you see fit
 
@@ -28,7 +28,7 @@ roslaunch close_loop_ctrl straightLine.launch
 ```
 catkin_create_pkg <package_name> [depend1] [depend2] [depend3]
 ```
-* Use the teleop package to verify if your results are correct (session 3)
+* Use the teleop package to verify if your results are correct (session 1)
 ```
 sudo apt get install ros noetic teleop twist keyboard
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
@@ -40,7 +40,7 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 * Set a target, and drive the robot around, checking that the angle to the target and the distance from the target are updated correctly
 * Remember to wrap all angles to within 1 circle (wrap to pi or wrap to 2 pi)
 
-* Use the teleop package to verify if your results are correct (session 3)
+* Use the teleop package to verify if your results are correct (session 1)
 ```
 sudo apt get install ros noetic teleop twist keyboard
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
@@ -48,6 +48,6 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
   - Note: You do not need to modify the CMake (unless you need to use a non-standard library)
   
 ## Activity 3
-* Move te robot (Gazebo Simulator Session 4) from an initial position to a final position using a Proportional Control (P-Control)
+* Move te robot (Gazebo Simulator Session 1) from an initial position to a final position using a Proportional Control (P-Control)
 <img src="https://user-images.githubusercontent.com/67285979/188335003-d01d67bd-c9a8-4fbb-b0f4-7acb7c05d4f3.png" alt="drawing" width="400"/>
 

@@ -13,7 +13,7 @@
 ---
 
 # Session 2: Closing the loop (Control Systems in ROS).
-  * In this session soem basic concepts about dead reckoning localisation will be provided.
+  * In this session some basic concepts about dead reckoning localisation will be provided.
   * This lecture will also provide the student with an overview of closed loop control.
   * An overview of PID control and its implementation on WMR (Wheeled mobile robots) will be provided.
   
