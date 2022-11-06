@@ -11,17 +11,26 @@
 </picture>
 
 ---
-# Session 3 (22 Ago): Robot Simulation.
-  * For the first part of this session, an introduction to Differential Drive Systems and its systems Kinematics will be presented. At the same time a brief introduction of the Sensors and Actuators alongside some comparisons between the real robot and the modeled one will be given. 
-
-  * In the second part another introduction to the different ROS Visualisation Tools will be provided. Some examples of the simulated Robot Model in the dfferent tools will also be given. Finally a Walk-trough RVIZ using the Puzzlebot model wil be provided previous to the class activity of the students.
-  
-  * Activity
-    - Gazebo Puzzlebot Introduction 
-
+# Session 1: Robot Simulation.
+  * In this session, an introduction to Differential Drive Systems and will be presented. 
+  * A brief introduction of the Sensors and Actuators alongside some comparisons between the real robot and the modeled one will be given. 
+  * Basic control theory about systems will be introduced.
+  * An introduction about open loop control will also be given, and a case scenario using the puzzlebot with a simple open loop controller will be studied.
+  * Activities 
+    - Puzzlebot Gazebo Model.
+    - Use an open loop control to move the robot in a straight line. 
+    - Use an open loop controller to move the robot in a square.
 ---
 
 ### Useful Links:
+
+#### Control
+* [Dynamic Model of a Differential Drive Robot](https://www.hilarispublisher.com/open-access/dynamic-modelling-of-differentialdrive-mobile-robots-using-lagrange-and-newtoneuler-methodologies-a-unified-framework-2168-9695.1000107.pdf)
+* [Kinematic Model of Differential Drive Robot](https://globaljournals.org/GJRE_Volume14/1-Kinematics-Localization-and-Control.pdf)
+* [Open loop control Tutorial](https://www.electronics-tutorials.ws/systems/open-loop-system.html)
+* [Open Loop Control Tutorial](https://www.electronicshub.org/open-loop-system/)
+* [Open Loop Control Book](https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Signal_Processing_and_Modeling/Introduction_to_Linear_Time-Invariant_Dynamic_Systems_for_Students_of_Engineering_(Hallauer)/14%3A_Introduction_to_Feedback_Control/14.02%3A_Definitions_and_Examples_of_Open-Loop_Control_Systems)
+
 
 #### Robotics
 * [Rotary Encoder](https://en.wikipedia.org/wiki/Rotary_encoder)

@@ -22,18 +22,11 @@
 #### Session 1: Robot Simulation.
   * Modelling Basics.
   * Differential Drive Basics.
-  * ROS Visualisation Tools.
-  * Gazebo.
-  * Activity.
-  * **Requirements:** Laptop, ROS preinstalled, Ubuntu preinstalled or VM, Basic Knowledge of Python.
-
-#### Session 2: Open Loop Control.
-  
   * Basic Control Theory for Mobile Robotics.
   * Activities.
   * **Requirements:** Laptop, ROS preinstalled, Ubuntu preinstalled or VM, Basic Knowledge of Python.
 
-#### Session 3: Closing the loop: Autonomous Navigation.
+#### Session 2: Closing the loop: Autonomous Navigation.
   * Basic Control Theory for Mobile Robotics.
   * Closed loop systems in robotics.
   * Activities.
